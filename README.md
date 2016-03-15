@@ -5,6 +5,35 @@ Currently support HSV(HSB) and RGB.
 
 :zap: This is experimental.
 
+## Install
+
+```
+npm install color2color
+```
+
+## Usage
+
+
+1\. Require into your code.
+
+```
+const rgb2hsv = require('color2color').rgb2hsv;
+
+or
+
+import {rgb2hsv} from 'color2color';
+```
+
+2\. convert color
+
+```
+const rgb2hsv = require('color2color').rgb2hsv;
+
+let hsv = rgb2hsv(80, 100, 60);
+console.log(hsv); // output hsv array [90, 0.1, 0.3]
+
+```
+
 ## TODO
 
 Find more effective way to calculate color format.  
