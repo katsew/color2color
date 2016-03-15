@@ -1,6 +1,6 @@
 {
   "name": "color2color",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "change one color format to another.",
   "homepage": "https://github.com/katsew/color2color",
   "main": "index.js",
@@ -15,7 +15,17 @@
   "engines": {
     "node": "^4.2.2"
   },
-  "keywords": ["hsv2rgb", "hsb2rgb", "rgb2hsv", "rgb2hsb", "rgb", "hsv", "hsb", "color", "converter"],
+  "keywords": [
+    "hsv2rgb",
+    "hsb2rgb",
+    "rgb2hsv",
+    "rgb2hsb",
+    "rgb",
+    "hsv",
+    "hsb",
+    "color",
+    "converter"
+  ],
   "author": "katsew",
   "license": "MIT",
   "devDependencies": {
